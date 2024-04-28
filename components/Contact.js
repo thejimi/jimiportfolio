@@ -10,12 +10,21 @@ export default function Stack() {
         </h2>
       </div>
       <p>
-        Shoot me an email:{' '}
+        Add me on Discord: <strong>@jimiwtf</strong>
+      </p>
+      <p>
+        Or join my servers: 
         <a
           className="dark:text-white text-black transition-colors duration-500"
-          href={`mailto:${contact.email}`}
+          href={`https://discord.gg/MA4rH3sqe3`}
         >
-          {contact.email}
+          &nbsp;Personal server&nbsp;/&nbsp;
+        </a>
+        <a
+          className="dark:text-white text-black transition-colors duration-500"
+          href={`https://discord.gg/steamhappy`}
+        >
+          Hangout server
         </a>
       </p>
       <div className="flex space-x-5 mt-5 text-lightText transition-colors duration-500">

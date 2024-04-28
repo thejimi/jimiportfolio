@@ -1,57 +1,55 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
+  title: 'jimi.wtf',
+  description: 'full-stack developer'
 }
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "Hello, i'm Jimi 👋🏻",
+  desc: "A full-stack developer from Poland"
 };
 
 export const projects = {
   title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  desc: "Here are some of my projects that i've worked on",
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
+      title: 'AutoMemes',
+      description: 'Quality memes, delivered to your Discord server 24/7',
+      link: 'https://tinyurl.com/automemes',
       github: ''
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
+      title: 'Filtru (shut down)',
+      description: 'Destroy porn, before it destroys you. A browser extension that removes unwanted content.',
+      link: 'https://filtru.xyz/',
+      github: 'thejimi/filtru'
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
-    }
+      title: 'Studix',
+      description: 'An AI tool for students - your all in one place for studying',
+      link: 'https://studix.xyz/'
+    },
   ]
 };
 
 export const stack = {
   title: 'My Stack',
   stack: [
-    'HTML',
-    'CSS',
     'JavaScript',
-    'Typescript',
+    'TypeScript',
+    'Node.js',
     'React',
-    'NextJS',
+    'Rust',
+    'C++',
+    'C#',
+    'Python',
+    'Git',
     'TailwindCSS',
-    'Firebase',
-    'Git'
+    'discord.js'
   ]
 };
 
 export const contact = {
-  title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  title: 'Contact me',
+  github: 'thejimi',
 };
