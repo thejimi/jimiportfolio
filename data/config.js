@@ -10,25 +10,20 @@ export const hero = {
 
 export const projects = {
   title: 'My Projects',
-  desc: "Here are some of my projects that i've worked on",
+  desc: "Here are some of my projects that im working on",
   projects: [
     {
-      title: 'AutoMemes',
+      title: 'StealThis [unfinished]',
+      description: 'Best social media downloader - free, without any ads or malware.',
+      link: 'https://stealthis.lol/',
+      github: 'thejimi/stealthis'
+    },
+    {
+      title: 'AutoMemes [shut down]',
       description: 'Quality memes, delivered to your Discord server 24/7',
       link: 'https://tinyurl.com/automemes',
       github: ''
-    },
-    {
-      title: 'Filtru (shut down)',
-      description: 'Destroy porn, before it destroys you. A browser extension that removes unwanted content.',
-      link: 'https://filtru.xyz/',
-      github: 'thejimi/filtru'
-    },
-    {
-      title: 'Studix',
-      description: 'An AI tool for students - your all in one place for studying',
-      link: 'https://studix.xyz/'
-    },
+    }
   ]
 };
 
